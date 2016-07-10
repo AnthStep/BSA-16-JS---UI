@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+html{
+	overflow-x: hidden;
+	height: 100%;
+}
+
+a{
+	color: ;
+}
+
+@keyframes colorchange{
+/*for (i = 0; i <= 100; i++) {
+  string= string+i+"%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 "+i+"%,#CDD0A7 100%);}"
+}этим генерировал кадры*/
+0%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 0%,#CDD0A7 100%);}1%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 1%,#CDD0A7 100%);}2%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 2%,#CDD0A7 100%);}3%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 3%,#CDD0A7 100%);}4%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 4%,#CDD0A7 100%);}5%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 5%,#CDD0A7 100%);}6%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 6%,#CDD0A7 100%);}7%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 7%,#CDD0A7 100%);}8%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 8%,#CDD0A7 100%);}9%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 9%,#CDD0A7 100%);}10%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 10%,#CDD0A7 100%);}11%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 11%,#CDD0A7 100%);}12%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 12%,#CDD0A7 100%);}13%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 13%,#CDD0A7 100%);}14%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 14%,#CDD0A7 100%);}15%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 15%,#CDD0A7 100%);}16%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 16%,#CDD0A7 100%);}17%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 17%,#CDD0A7 100%);}18%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 18%,#CDD0A7 100%);}19%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 19%,#CDD0A7 100%);}20%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 20%,#CDD0A7 100%);}21%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 21%,#CDD0A7 100%);}22%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 22%,#CDD0A7 100%);}23%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 23%,#CDD0A7 100%);}24%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 24%,#CDD0A7 100%);}25%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 25%,#CDD0A7 100%);}26%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 26%,#CDD0A7 100%);}27%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 27%,#CDD0A7 100%);}28%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 28%,#CDD0A7 100%);}29%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 29%,#CDD0A7 100%);}30%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 30%,#CDD0A7 100%);}31%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 31%,#CDD0A7 100%);}32%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 32%,#CDD0A7 100%);}33%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 33%,#CDD0A7 100%);}34%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 34%,#CDD0A7 100%);}35%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 35%,#CDD0A7 100%);}36%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 36%,#CDD0A7 100%);}37%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 37%,#CDD0A7 100%);}38%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 38%,#CDD0A7 100%);}39%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 39%,#CDD0A7 100%);}40%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 40%,#CDD0A7 100%);}41%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 41%,#CDD0A7 100%);}42%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 42%,#CDD0A7 100%);}43%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 43%,#CDD0A7 100%);}44%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 44%,#CDD0A7 100%);}45%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 45%,#CDD0A7 100%);}46%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 46%,#CDD0A7 100%);}47%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 47%,#CDD0A7 100%);}48%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 48%,#CDD0A7 100%);}49%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 49%,#CDD0A7 100%);}50%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 50%,#CDD0A7 100%);}51%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 51%,#CDD0A7 100%);}52%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 52%,#CDD0A7 100%);}53%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 53%,#CDD0A7 100%);}54%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 54%,#CDD0A7 100%);}55%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 55%,#CDD0A7 100%);}56%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 56%,#CDD0A7 100%);}57%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 57%,#CDD0A7 100%);}58%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 58%,#CDD0A7 100%);}59%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 59%,#CDD0A7 100%);}60%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 60%,#CDD0A7 100%);}61%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 61%,#CDD0A7 100%);}62%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 62%,#CDD0A7 100%);}63%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 63%,#CDD0A7 100%);}64%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 64%,#CDD0A7 100%);}65%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 65%,#CDD0A7 100%);}66%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 66%,#CDD0A7 100%);}67%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 67%,#CDD0A7 100%);}68%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 68%,#CDD0A7 100%);}69%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 69%,#CDD0A7 100%);}70%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 70%,#CDD0A7 100%);}71%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 71%,#CDD0A7 100%);}72%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 72%,#CDD0A7 100%);}73%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 73%,#CDD0A7 100%);}74%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 74%,#CDD0A7 100%);}75%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 75%,#CDD0A7 100%);}76%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 76%,#CDD0A7 100%);}77%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 77%,#CDD0A7 100%);}78%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 78%,#CDD0A7 100%);}79%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 79%,#CDD0A7 100%);}80%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 80%,#CDD0A7 100%);}81%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 81%,#CDD0A7 100%);}82%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 82%,#CDD0A7 100%);}83%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 83%,#CDD0A7 100%);}84%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 84%,#CDD0A7 100%);}85%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 85%,#CDD0A7 100%);}86%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 86%,#CDD0A7 100%);}87%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 87%,#CDD0A7 100%);}88%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 88%,#CDD0A7 100%);}89%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 89%,#CDD0A7 100%);}90%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 90%,#CDD0A7 100%);}91%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 91%,#CDD0A7 100%);}92%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 92%,#CDD0A7 100%);}93%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 93%,#CDD0A7 100%);}94%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 94%,#CDD0A7 100%);}95%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 95%,#CDD0A7 100%);}96%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 96%,#CDD0A7 100%);}97%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 97%,#CDD0A7 100%);}98%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 98%,#CDD0A7 100%);}99%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 99%,#CDD0A7 100%);}100%{background: linear-gradient(to right,#CDD0A7 0%,#F7F6F2 100%,#CDD0A7 100%);}
+}
+
+@-webkit-keyframes colorchange {
+
+
+0%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 0%,#CDD0A7 100%);}1%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 1%,#CDD0A7 100%);}2%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 2%,#CDD0A7 100%);}3%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 3%,#CDD0A7 100%);}4%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 4%,#CDD0A7 100%);}5%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 5%,#CDD0A7 100%);}6%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 6%,#CDD0A7 100%);}7%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 7%,#CDD0A7 100%);}8%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 8%,#CDD0A7 100%);}9%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 9%,#CDD0A7 100%);}10%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 10%,#CDD0A7 100%);}11%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 11%,#CDD0A7 100%);}12%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 12%,#CDD0A7 100%);}13%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 13%,#CDD0A7 100%);}14%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 14%,#CDD0A7 100%);}15%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 15%,#CDD0A7 100%);}16%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 16%,#CDD0A7 100%);}17%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 17%,#CDD0A7 100%);}18%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 18%,#CDD0A7 100%);}19%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 19%,#CDD0A7 100%);}20%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 20%,#CDD0A7 100%);}21%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 21%,#CDD0A7 100%);}22%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 22%,#CDD0A7 100%);}23%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 23%,#CDD0A7 100%);}24%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 24%,#CDD0A7 100%);}25%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 25%,#CDD0A7 100%);}26%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 26%,#CDD0A7 100%);}27%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 27%,#CDD0A7 100%);}28%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 28%,#CDD0A7 100%);}29%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 29%,#CDD0A7 100%);}30%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 30%,#CDD0A7 100%);}31%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 31%,#CDD0A7 100%);}32%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 32%,#CDD0A7 100%);}33%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 33%,#CDD0A7 100%);}34%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 34%,#CDD0A7 100%);}35%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 35%,#CDD0A7 100%);}36%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 36%,#CDD0A7 100%);}37%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 37%,#CDD0A7 100%);}38%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 38%,#CDD0A7 100%);}39%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 39%,#CDD0A7 100%);}40%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 40%,#CDD0A7 100%);}41%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 41%,#CDD0A7 100%);}42%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 42%,#CDD0A7 100%);}43%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 43%,#CDD0A7 100%);}44%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 44%,#CDD0A7 100%);}45%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 45%,#CDD0A7 100%);}46%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 46%,#CDD0A7 100%);}47%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 47%,#CDD0A7 100%);}48%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 48%,#CDD0A7 100%);}49%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 49%,#CDD0A7 100%);}50%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 50%,#CDD0A7 100%);}51%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 51%,#CDD0A7 100%);}52%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 52%,#CDD0A7 100%);}53%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 53%,#CDD0A7 100%);}54%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 54%,#CDD0A7 100%);}55%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 55%,#CDD0A7 100%);}56%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 56%,#CDD0A7 100%);}57%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 57%,#CDD0A7 100%);}58%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 58%,#CDD0A7 100%);}59%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 59%,#CDD0A7 100%);}60%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 60%,#CDD0A7 100%);}61%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 61%,#CDD0A7 100%);}62%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 62%,#CDD0A7 100%);}63%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 63%,#CDD0A7 100%);}64%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 64%,#CDD0A7 100%);}65%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 65%,#CDD0A7 100%);}66%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 66%,#CDD0A7 100%);}67%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 67%,#CDD0A7 100%);}68%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 68%,#CDD0A7 100%);}69%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 69%,#CDD0A7 100%);}70%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 70%,#CDD0A7 100%);}71%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 71%,#CDD0A7 100%);}72%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 72%,#CDD0A7 100%);}73%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 73%,#CDD0A7 100%);}74%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 74%,#CDD0A7 100%);}75%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 75%,#CDD0A7 100%);}76%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 76%,#CDD0A7 100%);}77%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 77%,#CDD0A7 100%);}78%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 78%,#CDD0A7 100%);}79%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 79%,#CDD0A7 100%);}80%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 80%,#CDD0A7 100%);}81%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 81%,#CDD0A7 100%);}82%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 82%,#CDD0A7 100%);}83%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 83%,#CDD0A7 100%);}84%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 84%,#CDD0A7 100%);}85%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 85%,#CDD0A7 100%);}86%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 86%,#CDD0A7 100%);}87%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 87%,#CDD0A7 100%);}88%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 88%,#CDD0A7 100%);}89%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 89%,#CDD0A7 100%);}90%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 90%,#CDD0A7 100%);}91%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 91%,#CDD0A7 100%);}92%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 92%,#CDD0A7 100%);}93%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 93%,#CDD0A7 100%);}94%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 94%,#CDD0A7 100%);}95%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 95%,#CDD0A7 100%);}96%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 96%,#CDD0A7 100%);}97%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 97%,#CDD0A7 100%);}98%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 98%,#CDD0A7 100%);}99%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 99%,#CDD0A7 100%);}100%{background: -webkit-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 100%,#CDD0A7 100%);}
+}
+
+@-moz-keyframes colorchange {
+
+
+0%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 0%,#CDD0A7 100%);}1%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 1%,#CDD0A7 100%);}2%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 2%,#CDD0A7 100%);}3%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 3%,#CDD0A7 100%);}4%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 4%,#CDD0A7 100%);}5%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 5%,#CDD0A7 100%);}6%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 6%,#CDD0A7 100%);}7%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 7%,#CDD0A7 100%);}8%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 8%,#CDD0A7 100%);}9%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 9%,#CDD0A7 100%);}10%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 10%,#CDD0A7 100%);}11%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 11%,#CDD0A7 100%);}12%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 12%,#CDD0A7 100%);}13%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 13%,#CDD0A7 100%);}14%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 14%,#CDD0A7 100%);}15%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 15%,#CDD0A7 100%);}16%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 16%,#CDD0A7 100%);}17%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 17%,#CDD0A7 100%);}18%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 18%,#CDD0A7 100%);}19%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 19%,#CDD0A7 100%);}20%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 20%,#CDD0A7 100%);}21%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 21%,#CDD0A7 100%);}22%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 22%,#CDD0A7 100%);}23%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 23%,#CDD0A7 100%);}24%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 24%,#CDD0A7 100%);}25%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 25%,#CDD0A7 100%);}26%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 26%,#CDD0A7 100%);}27%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 27%,#CDD0A7 100%);}28%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 28%,#CDD0A7 100%);}29%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 29%,#CDD0A7 100%);}30%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 30%,#CDD0A7 100%);}31%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 31%,#CDD0A7 100%);}32%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 32%,#CDD0A7 100%);}33%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 33%,#CDD0A7 100%);}34%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 34%,#CDD0A7 100%);}35%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 35%,#CDD0A7 100%);}36%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 36%,#CDD0A7 100%);}37%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 37%,#CDD0A7 100%);}38%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 38%,#CDD0A7 100%);}39%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 39%,#CDD0A7 100%);}40%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 40%,#CDD0A7 100%);}41%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 41%,#CDD0A7 100%);}42%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 42%,#CDD0A7 100%);}43%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 43%,#CDD0A7 100%);}44%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 44%,#CDD0A7 100%);}45%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 45%,#CDD0A7 100%);}46%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 46%,#CDD0A7 100%);}47%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 47%,#CDD0A7 100%);}48%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 48%,#CDD0A7 100%);}49%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 49%,#CDD0A7 100%);}50%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 50%,#CDD0A7 100%);}51%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 51%,#CDD0A7 100%);}52%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 52%,#CDD0A7 100%);}53%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 53%,#CDD0A7 100%);}54%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 54%,#CDD0A7 100%);}55%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 55%,#CDD0A7 100%);}56%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 56%,#CDD0A7 100%);}57%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 57%,#CDD0A7 100%);}58%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 58%,#CDD0A7 100%);}59%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 59%,#CDD0A7 100%);}60%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 60%,#CDD0A7 100%);}61%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 61%,#CDD0A7 100%);}62%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 62%,#CDD0A7 100%);}63%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 63%,#CDD0A7 100%);}64%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 64%,#CDD0A7 100%);}65%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 65%,#CDD0A7 100%);}66%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 66%,#CDD0A7 100%);}67%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 67%,#CDD0A7 100%);}68%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 68%,#CDD0A7 100%);}69%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 69%,#CDD0A7 100%);}70%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 70%,#CDD0A7 100%);}71%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 71%,#CDD0A7 100%);}72%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 72%,#CDD0A7 100%);}73%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 73%,#CDD0A7 100%);}74%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 74%,#CDD0A7 100%);}75%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 75%,#CDD0A7 100%);}76%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 76%,#CDD0A7 100%);}77%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 77%,#CDD0A7 100%);}78%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 78%,#CDD0A7 100%);}79%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 79%,#CDD0A7 100%);}80%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 80%,#CDD0A7 100%);}81%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 81%,#CDD0A7 100%);}82%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 82%,#CDD0A7 100%);}83%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 83%,#CDD0A7 100%);}84%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 84%,#CDD0A7 100%);}85%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 85%,#CDD0A7 100%);}86%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 86%,#CDD0A7 100%);}87%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 87%,#CDD0A7 100%);}88%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 88%,#CDD0A7 100%);}89%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 89%,#CDD0A7 100%);}90%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 90%,#CDD0A7 100%);}91%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 91%,#CDD0A7 100%);}92%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 92%,#CDD0A7 100%);}93%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 93%,#CDD0A7 100%);}94%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 94%,#CDD0A7 100%);}95%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 95%,#CDD0A7 100%);}96%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 96%,#CDD0A7 100%);}97%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 97%,#CDD0A7 100%);}98%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 98%,#CDD0A7 100%);}99%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 99%,#CDD0A7 100%);}100%{background: -moz-linear-gradient(right,#CDD0A7 0%,#F7F6F2 100%,#CDD0A7 100%);}
+
+}
+
+@-o-keyframes colorchange {
+
+
+
+0%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 0%,#CDD0A7 100%);}1%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 1%,#CDD0A7 100%);}2%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 2%,#CDD0A7 100%);}3%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 3%,#CDD0A7 100%);}4%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 4%,#CDD0A7 100%);}5%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 5%,#CDD0A7 100%);}6%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 6%,#CDD0A7 100%);}7%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 7%,#CDD0A7 100%);}8%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 8%,#CDD0A7 100%);}9%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 9%,#CDD0A7 100%);}10%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 10%,#CDD0A7 100%);}11%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 11%,#CDD0A7 100%);}12%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 12%,#CDD0A7 100%);}13%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 13%,#CDD0A7 100%);}14%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 14%,#CDD0A7 100%);}15%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 15%,#CDD0A7 100%);}16%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 16%,#CDD0A7 100%);}17%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 17%,#CDD0A7 100%);}18%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 18%,#CDD0A7 100%);}19%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 19%,#CDD0A7 100%);}20%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 20%,#CDD0A7 100%);}21%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 21%,#CDD0A7 100%);}22%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 22%,#CDD0A7 100%);}23%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 23%,#CDD0A7 100%);}24%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 24%,#CDD0A7 100%);}25%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 25%,#CDD0A7 100%);}26%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 26%,#CDD0A7 100%);}27%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 27%,#CDD0A7 100%);}28%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 28%,#CDD0A7 100%);}29%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 29%,#CDD0A7 100%);}30%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 30%,#CDD0A7 100%);}31%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 31%,#CDD0A7 100%);}32%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 32%,#CDD0A7 100%);}33%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 33%,#CDD0A7 100%);}34%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 34%,#CDD0A7 100%);}35%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 35%,#CDD0A7 100%);}36%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 36%,#CDD0A7 100%);}37%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 37%,#CDD0A7 100%);}38%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 38%,#CDD0A7 100%);}39%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 39%,#CDD0A7 100%);}40%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 40%,#CDD0A7 100%);}41%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 41%,#CDD0A7 100%);}42%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 42%,#CDD0A7 100%);}43%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 43%,#CDD0A7 100%);}44%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 44%,#CDD0A7 100%);}45%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 45%,#CDD0A7 100%);}46%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 46%,#CDD0A7 100%);}47%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 47%,#CDD0A7 100%);}48%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 48%,#CDD0A7 100%);}49%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 49%,#CDD0A7 100%);}50%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 50%,#CDD0A7 100%);}51%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 51%,#CDD0A7 100%);}52%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 52%,#CDD0A7 100%);}53%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 53%,#CDD0A7 100%);}54%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 54%,#CDD0A7 100%);}55%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 55%,#CDD0A7 100%);}56%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 56%,#CDD0A7 100%);}57%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 57%,#CDD0A7 100%);}58%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 58%,#CDD0A7 100%);}59%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 59%,#CDD0A7 100%);}60%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 60%,#CDD0A7 100%);}61%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 61%,#CDD0A7 100%);}62%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 62%,#CDD0A7 100%);}63%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 63%,#CDD0A7 100%);}64%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 64%,#CDD0A7 100%);}65%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 65%,#CDD0A7 100%);}66%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 66%,#CDD0A7 100%);}67%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 67%,#CDD0A7 100%);}68%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 68%,#CDD0A7 100%);}69%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 69%,#CDD0A7 100%);}70%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 70%,#CDD0A7 100%);}71%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 71%,#CDD0A7 100%);}72%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 72%,#CDD0A7 100%);}73%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 73%,#CDD0A7 100%);}74%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 74%,#CDD0A7 100%);}75%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 75%,#CDD0A7 100%);}76%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 76%,#CDD0A7 100%);}77%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 77%,#CDD0A7 100%);}78%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 78%,#CDD0A7 100%);}79%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 79%,#CDD0A7 100%);}80%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 80%,#CDD0A7 100%);}81%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 81%,#CDD0A7 100%);}82%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 82%,#CDD0A7 100%);}83%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 83%,#CDD0A7 100%);}84%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 84%,#CDD0A7 100%);}85%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 85%,#CDD0A7 100%);}86%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 86%,#CDD0A7 100%);}87%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 87%,#CDD0A7 100%);}88%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 88%,#CDD0A7 100%);}89%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 89%,#CDD0A7 100%);}90%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 90%,#CDD0A7 100%);}91%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 91%,#CDD0A7 100%);}92%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 92%,#CDD0A7 100%);}93%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 93%,#CDD0A7 100%);}94%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 94%,#CDD0A7 100%);}95%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 95%,#CDD0A7 100%);}96%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 96%,#CDD0A7 100%);}97%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 97%,#CDD0A7 100%);}98%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 98%,#CDD0A7 100%);}99%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 99%,#CDD0A7 100%);}100%{background: -o-linear-gradient(to right,#CDD0A7 0%,#F7F6F2 100%,#CDD0A7 100%);}
+
+
+}
+
+
+body{
+	width: 100%;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #DADBE1;
+	overflow-x: hidden;
+
+}
+body, html{height:100%}
+/*HEADER -------------------------------------*/
+
+header{
+	background-color: #A8CBC7;
+	height: 100px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	min-height: 60px;
+}
+
+header img{
+	max-width: 374px;
+	margin: 1%;
+}
+
+.search {
+	display: inline-block;
+    border: 2px solid white; 
+    border-radius: 23px;
+    background-color: white;
+    height: 30px; 
+    padding: 3px;
+    padding-left: 10px;
+    margin-right: 40px;
+}
+
+input[type="search"] {
+	border: none; 
+    outline: none; 
+    -webkit-appearance: none; 
+    width: 170px; 
+    height: 70%;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+    vertical-align: middle; 
+    display: inline-block;
+}
+
+input[type="submit"] {
+	outline: none; 
+	position: relative;
+	top: 6px;
+    width: 20px; 
+    height: 20px;
+    border: none; 
+    background: url(../images/searchico.png) no-repeat 50% 50%; 
+   }
+	
+.btn-menu img{
+ 	width: 35px;
+ 	height: 35px;
+}
+
+.btn-menu{
+	display: none;
+	float: right;
+	margin-right: 15px;
+}
+
+#menu-chb{
+	opacity: 0;
+	position: absolute;
+}
+/*MENU--------------------------------------------------------------*/
+
+nav{
+	margin: 0px;
+	display: block;
+	background-color: #CDD0A7;
+	height: 30px;
+	line-height: 30px;
+	animation: colorchange 4s infinite alternate;
+	-webkit-animation: colorchange 4s infinite alternate; /* Safari 4+ */
+  	-moz-animation:    colorchange 4s infinite alternate; /* Fx 5+ */
+  	-o-animation:      colorchange 4s infinite alternate; /* Opera 12+ */
+}
+
+
+nav ul{
+	margin: 0;
+	text-align: center;
+}
+
+nav li{
+	font-size: 18px;
+	display: inline-block;
+	margin: 0 5%;	
+}
+
+#searchlink{
+	display: none;
+}
+
+#sidebaritems{
+	display: none;
+}
+
+
+
+
+/*SIDEBAR-----------------------------------------------------------*/
+
+aside{
+	box-shadow: -10px 0px 10px -9px rgba(0,0,0,0.5);
+	background-color: #F7F6F2;
+	display: inline-block;
+	position: absolute;
+	right: -130px;
+	height: 100%;
+	min-height: 100vh;
+	-webkit-transition: right 0.5s ease-out ;
+    -moz-transition: right 0.5s ease-out ;
+    -o-transition: right 0.5s ease-out ;
+    transition: right 0.5s ease-out ;
+}
+
+aside span{
+	display: inline-block;
+	transform: rotate(-90deg);
+	position: fixed;
+	top: 50%;
+	right: -30px;
+	-webkit-transition: all 0.5s ease-out ;
+    -moz-transition: all 0.5s ease-out ;
+    -o-transition: all 0.5s ease-out ;
+    transition: all 0.5s ease-out ;
+
+}
+
+aside:hover{
+	right: 0;
+}
+
+aside:hover span{
+	opacity: 0;
+	right: 100px;
+}
+
+aside img{
+	position: relative;
+	top: 25%;
+}
+
+/*MAIN CONTENT--------------------------------------------------------*/
+
+main{
+	padding: 30px;
+	max-width: 640px;
+	margin-left: 15%;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+main img{
+	max-width: 100%;
+	margin: 20px 0;
+}
+
+.content{
+	position: relative;
+}
+
+
+/*foooter--------------------------------------------------------*/
+
+footer{
+	background-color: #A8CBC7;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	overflow-x: hidden;
+}
+
+footer img{
+	margin: 0 auto;
+	display: block;
+	height: 30px;
+	margin-top: 10px;
+	max-width: 600px;
+}
+
+/*keyframes--------------------------------------------------*/
+
+
